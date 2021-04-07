@@ -42,7 +42,7 @@ class TodoController extends Controller
         $res->nid=$request->input('nid');
         $res->mobile_no=$request->input('mobile_no');
         $res->save();
-        return redirect('AppoinmentShow');
+        // return redirect('AppoinmentShow');
     }
 
     /**
